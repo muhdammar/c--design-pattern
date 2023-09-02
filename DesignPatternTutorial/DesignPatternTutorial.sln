@@ -1,6 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Singleton", "Singleton\Singleton.csproj", "{9A84BFA4-2A12-4D47-A6B9-F8A29B41B558}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{3DFBD7CA-C3D8-44D1-A407-E9F2BA64EE9D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{7E38A550-B83A-4250-A503-FEF41849E54C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{CD889798-2DC4-4053-9C82-64843633E9D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +12,7 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{9A84BFA4-2A12-4D47-A6B9-F8A29B41B558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A84BFA4-2A12-4D47-A6B9-F8A29B41B558}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A84BFA4-2A12-4D47-A6B9-F8A29B41B558}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A84BFA4-2A12-4D47-A6B9-F8A29B41B558}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
 	EndGlobalSection
 EndGlobal
