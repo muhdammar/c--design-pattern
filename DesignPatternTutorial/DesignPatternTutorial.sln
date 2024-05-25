@@ -1,10 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34511.84
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Singleton", "Singleton", "{3DFBD7CA-C3D8-44D1-A407-E9F2BA64EE9D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Facade", "Facade", "{7E38A550-B83A-4250-A503-FEF41849E54C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Builder", "Builder", "{CD889798-2DC4-4053-9C82-64843633E9D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{ECB42C77-2519-48BA-B950-6D04E73B3105}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,7 +17,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ECB42C77-2519-48BA-B950-6D04E73B3105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECB42C77-2519-48BA-B950-6D04E73B3105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECB42C77-2519-48BA-B950-6D04E73B3105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECB42C77-2519-48BA-B950-6D04E73B3105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{ECB42C77-2519-48BA-B950-6D04E73B3105} = {3DFBD7CA-C3D8-44D1-A407-E9F2BA64EE9D}
 	EndGlobalSection
 EndGlobal
